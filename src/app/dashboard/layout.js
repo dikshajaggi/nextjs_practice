@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const layout = ({children}) => {
@@ -6,10 +7,11 @@ const layout = ({children}) => {
         <nav style={{display: "flex", justifyContent: "space-between", backgroundColor: "pink", height: "40px"}}>
             <span style={{marginLeft: "10px"}}>Logo</span>
             <div style={{display: "flex", justifyContent: "space-evenly", width: "60%"}}>
-                <span>Home</span>
+                <Link href ="/">Home</Link>
                 <span>Login</span>
                 <span>About</span>
                 <span>Contact</span>
+                <Link href ="/dashboard/settings">Settings</Link>
             </div>
         </nav>
       {children}
