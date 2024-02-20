@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div style={{height: "90vh"}}>
+    <div style={{height: "50vh"}}>
         dashboard
     </div>
   )

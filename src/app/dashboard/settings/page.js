@@ -2,6 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
+  setTimeout(() => console.log("working"), 2000)
+
   return (
     <div style={{height: "90vh"}}>
       settings inside dashboard
